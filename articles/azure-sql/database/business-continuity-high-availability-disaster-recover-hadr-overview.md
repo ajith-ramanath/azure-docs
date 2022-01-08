@@ -20,8 +20,8 @@ ms.date: 10/18/2021
 **Business continuity** in Azure SQL Database and SQL Managed Instance refers to the mechanisms, policies, and procedures that enable your business to continue operating in the face of disruption, particularly to its computing infrastructure. In the most of the cases, SQL Database and SQL Managed Instance will handle the disruptive events that might happen in the cloud environment and keep your applications and business processes running. However, there are some disruptive events that cannot be handled by SQL Database automatically such as:
 
 - User accidentally deleted or updated a row in a table.
-- Malicious attacker succeeded to delete data or drop a database.
-- Earthquake caused a power outage and temporary disabled datacenter.
+- Malicious attacker succeeded in deleting data or dropping a database.
+- An earthquake caused a power outage, and temporarily disabled the datacenter.
 
 This overview describes the capabilities that SQL Database and SQL Managed Instance provide for business continuity and disaster recovery. Learn about options, recommendations, and tutorials for recovering from disruptive events that could cause data loss or cause your database and application to become unavailable. Learn what to do when a user or application error affects data integrity, an Azure region has an outage, or your application requires maintenance.
 
